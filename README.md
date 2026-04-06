@@ -59,18 +59,22 @@ Interface web do sistema CRM desenvolvida com React.
 - **Clientes** — cadastro com busca e filtros
 - **Oportunidades** — funil de vendas estilo Kanban
 
-## ⚙️ Como rodar
-```bash
-# Clone o repositório
-git clone https://github.com/Migazz/crm-frontend.git
+## ⚙️ Como rodar o projeto localmente
 
-# Instale as dependências
-npm install
+### 1. Pré-requisitos
+* Ter o **Java 17** e o **Maven** instalados.
+* Ter o **Node.js** instalado (para o Frontend).
+* Ter o **MariaDB** ou **MySQL** instalado (você pode gerenciar pelo HeidiSQL).
 
-# Execute
-npm start
-```
-
+### 2. Configuração do Banco de Dados (HeidiSQL)
+1. Abra o seu HeidiSQL e crie um novo banco de dados chamado `db_crm`.
+2. No seu projeto Backend, vá em `crm/src/main/resources/application.properties`.
+3. Certifique-se de que as linhas de conexão estão assim:
+   ```properties
+   spring.datasource.url=jdbc:mariadb://localhost:3306/projetocrm
+   spring.datasource.username=seu_usuario
+   spring.datasource.password=sua_senha
+   spring.jpa.hibernate.ddl-auto=update
 ## 👨‍💻 Autor
 
 Desenvolvido por [Miguel Santana]
