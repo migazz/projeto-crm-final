@@ -1,0 +1,79 @@
+.login-pagina {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+}
+
+.login-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 48px 40px;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.login-cabecalho {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.login-logo {
+    display: inline-block;
+    background: linear-gradient(135deg, #0f3460, #533483);
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-campo {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.login-input {
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1.5px solid #e0e0e0;
+    font-size: 15px;
+    outline: none;
+}
+
+.login-botao {
+    padding: 14px;
+    background: linear-gradient(135deg, #0f3460, #533483);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login-botao:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.login-erro {
+    background: #fff0f0;
+    border: 1px solid #ffcccc;
+    color: #cc0000;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+}
