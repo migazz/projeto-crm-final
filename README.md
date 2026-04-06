@@ -71,10 +71,6 @@ npm install
 npm start
 ```
 
-## 🔗 Backend
-
-https://github.com/Migazz/crm
-
 ## 👨‍💻 Autor
 
 Desenvolvido por [Miguel Santana]
